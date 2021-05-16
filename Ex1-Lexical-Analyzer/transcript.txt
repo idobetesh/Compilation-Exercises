@@ -1,0 +1,25 @@
+number is set to +32
+
+number is set to 2
+
+address is set to 2120 WashingtonBlvd.,Washington,Pennsylvania,USA
+
+float is set to -0.32
+
+number is set to -224
+
+email is set to name@gmail.com
+
+float is set to -4.32e3
+
+phone is set to +972-4334-3431
+
+email is set to name@gmail.co.il
+
+address is set to 246 Herzelstr,Tel-aviv,Israel,Israel
+
+float is set to -34.444e+5
+
+phone is set to 054-878-0246
+
+phone is set to 03-235-1222

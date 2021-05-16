@@ -1,9 +1,14 @@
 number : +32
-number : -224
 number : 2
+address : 2120 WashingtonBlvd.,Washington,Pennsylvania,USA 
 float : -0.32
+number : -224
 email : name@gmail.com
 float : -4.32e3
 phone : +972-4334-3431
 email : name@gmail.co.il
 address : 246 Herzelstr,Tel-aviv,Israel,Israel 
+float : -34.444e+5
+phone : 054-878-0246
+phone : 03-235-1222
+C_key_word : while

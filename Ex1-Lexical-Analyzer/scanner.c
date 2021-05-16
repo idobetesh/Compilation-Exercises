@@ -4,8 +4,9 @@
 extern int yylex();
 extern int yylineno;
 extern char *yytext;
+char *text;
 
-char *names[] = {NULL, "number", "float", "email", "phone", "address"};
+char *names[] = {NULL, "number", "float", "email", "phone", "address", "C_key_word"};
 
 int main(void)
 {
@@ -69,11 +70,21 @@ int main(void)
             printf("%s is set to %s\n", names[ntoken], yytext);
             break;
 
+        case C_KEYWORD:
+            if (vtoken != KEYWORD)
+            {
+                printf("Syntax error in line %d, Expected a C key word but found %s\n", yylineno, yytext);
+                return 1;
+            }
+            printf("%s is set to %s\n", names[ntoken], yytext);
+            break;
+
         default:
             printf("Syntax error in line %d\n", yylineno);
         }
 
         ntoken = yylex();
     }
+
     return 0;
 }
