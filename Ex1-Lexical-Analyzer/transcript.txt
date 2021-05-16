@@ -1,6 +1,4 @@
-number is set to +32
-
-number is set to 2
+number is set to +999
 
 address is set to 2120 WashingtonBlvd.,Washington,Pennsylvania,USA
 
@@ -8,7 +6,11 @@ float is set to -0.32
 
 number is set to -224
 
+C_key_word is set to 'continue'
+
 email is set to name@gmail.com
+
+number is set to 2
 
 float is set to -4.32e3
 
@@ -22,4 +24,8 @@ float is set to -34.444e+5
 
 phone is set to 054-878-0246
 
+C_key_word is set to 'if'
+
 phone is set to 03-235-1222
+
+C_key_word is set to 'while'
