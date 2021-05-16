@@ -1,0 +1,9 @@
+number : +32
+number : -224
+number : 2
+float : -0.32
+email : name@gmail.com
+float : -4.32e3
+phone : +972-4334-3431
+
+address: 246 Herzel str, Tel-aviv, Israel, Israel
