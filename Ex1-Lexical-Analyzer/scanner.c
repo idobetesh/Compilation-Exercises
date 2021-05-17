@@ -4,7 +4,6 @@
 extern int yylex();
 extern int yylineno;
 extern char *yytext;
-char *text;
 
 char *names[] = {NULL, "number", "float", "email", "phone", "address", "C_key_word"};
 
