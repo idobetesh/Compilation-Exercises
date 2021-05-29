@@ -45,7 +45,7 @@ int main(void)
         case EMAIL:
             if (vtoken != EMAIL_ADD)
             {
-                printf("Syntax error in line %d, Expected an identifier but found %s\n", yylineno, yytext);
+                printf("Syntax error in line %d, Expected an email but found %s\n", yylineno, yytext);
                 return 1;
             }
             printf("%s is set to %s\n", names[ntoken], yytext);
@@ -54,7 +54,7 @@ int main(void)
         case PHONE:
             if (vtoken != PHONE_NUM)
             {
-                printf("Syntax error in line %d, Expected an identifier but found %s\n", yylineno, yytext);
+                printf("Syntax error in line %d, Expected a number but found %s\n", yylineno, yytext);
                 return 1;
             }
             printf("%s is set to %s\n", names[ntoken], yytext);
@@ -63,7 +63,7 @@ int main(void)
         case ADDRESS:
             if (vtoken != HOME_ADDRESS && vtoken != INTEGER)
             {
-                printf("Syntax error in line %d, Expected an identifier but found %s\n", yylineno, yytext);
+                printf("Syntax error in line %d, Expected a number but found %s\n", yylineno, yytext);
                 return 1;
             }
             printf("%s is set to %s\n", names[ntoken], yytext);
